@@ -1,0 +1,139 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+.busn-list{
+	list-style: none;
+}
+.busn-table {
+	font-weight: bold;
+}
+
+
+
+
+.jumbo-main {
+	width: 500px;
+	height: 190px;
+	background-color: #999;
+	margin-bottom: 0;
+}
+
+
+
+
+
+.h3-header, .h1-header {
+	margin: 0;
+}
+.h1-header {
+	padding-bottom: 10px;
+}
+.intro-header {
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+
+
+
+
+.search-header {
+	font-size: 18px;
+}
+.navbar-search {
+	padding: 0;
+}
+.btn-search {
+	padding: 4px 5px;
+}
+
+
+
+.main-category-menu {
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+.nav-header {
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.nav-header li {
+	position: relative;
+}
+.main-category-menu li ul {	
+	list-style: none;
+	padding-left: 15px;
+
+	/* Properties to get drop-down on left side */
+	display: none; 
+	position: absolute;   /* li set to relative above */
+	left: 100%;  
+	top: 0;
+	z-index: 999;
+	width: 150px;
+	background-color: white;
+
+	box-shadow: 1px solid;
+}
+
+
+
+
+.main-category-menu li a 	{
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+.main-category-menu li:hover ul {
+	display: block; /* Displays the drop-down box when the menu item is hovered over */              
+}
+.main-category-menu  li ul li a	{							
+	padding: 10px;  /* Adds a padding on the top and bottom so the text appears centered vertically */		
+	display: block;
+	text-decoration: none;
+}
+.sub-cat-options {
+	border: 1px solid #ccc;
+}
+.table {
+	z-index: -1;
+}
+
+
+
+
+
+.business-list,.busn-type-list {
+	padding-left: 0;
+	list-style: none;
+}
+.business-column, .busn-type-col, .form-column, .search-column {
+	padding: 0;
+}
+
+
+/*.business-list li::after{
+	content: ">>";
+}*/
+
+
+
+
+.search-form {
+	margin-top: 21px;
+    margin-bottom: 10.5px;
+    text-align: right;
+}
+.main-page-search {
+	margin-right: 18px;
+}		
+
+
+
